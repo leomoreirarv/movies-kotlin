@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.circularreveal.coordinatorlayout.CircularRevealCoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.leonardomoreira.study.themovies2.ui.startup.MainActivity">
+
+    <ProgressBar android:id="@+id/progress_circular"
+                 android:layout_width="50dp"
+                 android:layout_height="50dp"
+                 android:visibility="gone"
+                 android:layout_gravity="center_vertical|center_horizontal"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/movies_list_view"/>
+
+</android.support.design.circularreveal.coordinatorlayout.CircularRevealCoordinatorLayout>

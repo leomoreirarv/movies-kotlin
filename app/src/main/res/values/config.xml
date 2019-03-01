@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="base_url">https://api.themoviedb.org/3/</string>
+    <string name="base_image_url">https://image.tmdb.org/t/p/</string>
+    <string name="poster_original_size">original</string>
+    <string name="poster_small_size">w500</string>
+</resources>
